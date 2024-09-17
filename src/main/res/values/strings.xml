@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Health</string>
+
+
+    <!-- Navigation Drawer Strings -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Navigation Menu items -->
+    <string name="personal">Personal</string>
+    <string name="chats">Chats</string>
+    <string name="people">People On ChatHouse</string>
+
+
+    <string name="number_null_error">Missed to fill phone number</string>
+    <string name="number_valid_error">Invalid Phone number</string>
+
+    <string name="password_null_error">missed to fill password</string>
+
+    <string name="empty_user">Username is required</string>
+    <string name="empty_unique">Required for Login</string>
+    <string name="empty_phone">Required for Verification</string>
+    <string name="empty_phone_number">Required for Login</string>
+    <string name="empty_login_password">Required Password to Verify</string>
+    <string name="invalid_phone">Invalid Phone Number</string>
+    <string name="empty_password">Required for Security</string>
+    <string name="empty_otp">Required OTP</string>
+
+    <string name="acc_exists">Phone Number is used</string>
+
+    <string name="missing_length">Password Length must greater than 8</string>
+
+    <string name="mismatch">Password Mismatch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

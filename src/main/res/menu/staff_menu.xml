@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="DashBoard"
+        android:id="@+id/dashboard"/>
+
+    <item android:title="@string/personal">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/staff_profile"
+                    android:title="My Profile"/>
+
+                <item
+                    android:id="@+id/staff_records"
+                    android:title="Records"/>
+
+                <item
+                    android:id="@+id/staff_upload_records"
+                    android:title="Upload Records"/>
+
+                <item
+                    android:id="@+id/staff_find_doctors"
+                    android:title="Find Doctors"/>
+
+                <item
+                    android:id="@+id/staff_billing"
+                    android:title="Billing"/>
+
+                <item
+                    android:id="@+id/staff_appointment"
+                    android:title="Maintain Appointment"/>
+
+                <item
+                    android:id="@+id/staff_settings"
+                    android:title="Settings"/>
+
+                <item
+                    android:id="@+id/staff_about"
+                    android:title="About"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

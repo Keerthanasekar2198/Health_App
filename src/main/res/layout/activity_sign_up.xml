@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="text"
+            android:layout_marginRight="40dp"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/writer_style"
+            android:hint="Name"/>
+
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:singleLine="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/writer_style"
+            android:hint="Phone Number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/writer_style"
+                android:hint="Age"/>
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:layout_weight="2.5"
+                android:layout_marginLeft="30dp"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/writer_style"
+                android:hint="Age"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/writer_style"
+                android:hint="Password"/>
+
+            <ImageView
+                android:id="@+id/toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/password"
+                android:layout_alignRight="@+id/password"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:tag="visible_on"
+                android:src="@drawable/visible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/repassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:singleLine="true"
+                android:background="@drawable/writer_style"
+                android:hint="Retype Password"/>
+
+            <ImageView
+                android:id="@+id/toggle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/repassword"
+                android:layout_alignRight="@+id/repassword"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:tag="visible_on"
+                android:src="@drawable/visible" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
